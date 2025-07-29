@@ -1,0 +1,144 @@
+/* Header */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+/* Configuração de logo */
+.logo {
+  display: flex;
+  gap: 24px;
+}
+
+.logo img {
+  max-width: 6rem;
+}
+
+/* Configuração de input */
+.search {
+  max-width: 404px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.search input {
+  width: 25.25rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+
+  border: none;
+  outline: none;
+}
+.search svg {
+  padding: 1px;
+  border: 0.438rem solid transparent;
+  margin: 0.1rem;
+  background-color: #f8f8f8;
+}
+
+/* Login */
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.login img {
+  max-width: 2.5rem;
+  border-radius: 2.5rem;
+}
+
+/* Seção de video */
+
+.container-video {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.container-video .video {
+  display: flex;
+  padding: 0.2rem;
+  flex-direction: column;
+}
+
+.inscrito {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.inscritoDio {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.inscritoDio img {
+  max-width: 42px;
+}
+.dio {
+  display: flex;
+  gap: 2.625rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dio img {
+  max-width: 3.5rem;
+  border-radius: 3rem;
+}
+
+.detalhes {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 100%;
+}
+.detalhes p {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.informacao {
+  line-height: 1px;
+}
+/* Descrição do video */
+
+.descricao {
+  max-width: 32.125rem;
+}
+
+/* Box mini-video */
+
+.mini-video {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mini-video .box {
+  display: flex;
+  gap: 0.5rem;
+}
+.mini-video .box .info p {
+  font-size: 0.75rem;
+  color: #515151;
+  line-height: 0.15rem;
+}
+.mini-video .box .info h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+.mini-video .box img {
+  max-width: 10rem;
+  max-height: 5.625rem;
+}
